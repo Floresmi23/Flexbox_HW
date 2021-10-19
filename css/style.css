@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+.product{
+    /*background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Really-Cool-Image.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-position: bottom;*/
+    /* Above is how to add the image */
+
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.line{
+    background-color: black;
+    color: black;
+    font-size: 30px;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    text-align: right;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 0 10px;
+    line-height: 60px; /* same px as nav height */
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 21px;
+
+}
+
+p{
+    text-align: center;
+    margin: 4px;
+}
+
+h1{
+    text-align: center;
+    margin: 2px;
+}
+
+h2{
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 20px;
+    font-size: 20px;
+
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 400px;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 400px;
+    
+}
+
+.home{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Really-Cool-Image.jpg");
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle_box{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+.boxes1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 250px;
+}
+
+.boxes{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 8px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 100px;
+}
+.footer1{
+    height: 50px;
+    width: 1500px;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
